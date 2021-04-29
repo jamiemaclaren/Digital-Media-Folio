@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+body 
+{
+	margin: 50;
+	padding: 0;
+	font-family: "Barlow Condensed";
+	font-size: 20px;
+	color: black;
+	width: 50%;
+	float: left;
+}
+#page
+{
+	position: relative;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background-color: dodgerblue;
+	float: left;
+	padding: 0;
+}
+#header
+{
+	padding: 0;
+	color: black;
+	background-color: white;
+	float: left;
+	margin: 0;
+	width: 100%;
+}
+#header h1
+{
+	position: relative;
+	left: 30px;
+	top: 20px;
+	color: black;
+	text-align: left;
+	font-size: 40px;
+	font-weight: bold;
+	float: left;
+	margin: 0;
+	width: 100%;
+	padding: 0;
+}
+#nav
+{
+	line-height: 55px;
+	padding: 0 20px;
+	background-color: white;
+	text-align: right;
+	float: left;
+	margin: 0;
+	width: 100%;
+}
+#nav .link
+{
+	float: left;
+	padding: 0;
+	margin: 0 27px 0 27px;
+}
+.link:hover
+{
+	color: deepskyblue;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.link
+{
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+	float: left;
+	padding: 0;
+}
+#sidenav
+{
+	float: left;
+	width: 100px;
+	padding: 1em;
+	margin: 0;
+	background: #444;
+}
+#sidenav ul
+{
+	list-style-type: none;
+	padding:0px;
+	float: left;
+	margin: 0;
+	width: 100%;
+}
+#sidenav li
+{
+	margin: 10px;
+	float: left;
+	width: 100%;
+	padding: 0;
+}
+#footer
+{
+	height: 40px;
+	padding-top: 5px;
+	background-color: white;
+	text-align: center;
+	font-size: 10px;
+	color: black;
+	float: left;
+	margin: 0;
+	width: 100%;
+}
+.left-footer
+{
+	text-align: left;
+	float: left;
+	width: 48%;
+	padding-left: 2%;
+	font-size: 15px;
+}
+.right-footer
+{
+	text-align: right;
+	float: right;
+	width: 48%;
+	padding-right: 2%;
+	font-size: 15px;
+}
+#main
+{
+	padding: 1em;
+	overflow: hidden;
+	float: left;
+	margin: 0;
+	width: 100%;
+}
+.article
+{
+	width: 100%;
+	padding: 10px 10px;
+	overflow: hidden;
+	float: left;
+	margin: 0;
+}
+.article h1
+{
+	margin-left: -10px;
+	padding-top: 2px;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: black;
+	color: white;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.article p
+{
+	font-size: 15px;
+	line-height: 25px;
+	float: left;
+	margin: 0;
+	width: 100%;
+	padding: 0;
+	text-align: center;
+}
+.article .leftpos
+{
+	float: left;
+	padding-right: 2%;
+	margin: 0;
+	width: 28%;
+}
+.article .rightpos
+{
+	float: right;
+	padding-left: 0;
+	margin: 0;
+	width: 70%;
+}
